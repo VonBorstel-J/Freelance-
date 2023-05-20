@@ -1,0 +1,72 @@
+
+
+Logo
+<img src="https://images.squarespace-cdn.com/content/v1/6005270ac8cd610112a7ad9e/1610987611305-FG1GOG60GO7JOUOSOM97/Frank+Jewelers+logo.png?format=1500w" alt="Frank Jewelers Logo" />
+
+Hero
+<img src="https://images.squarespace-cdn.com/content/v1/6005270ac8cd610112a7ad9e/df4ceef1-8969-4449-9dca-859018b56127/BEC_7339.jpg" alt="Signature Jewelry Piece" />
+
+
+
+v1
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frank Jewelers</title>
+    <link rel="stylesheet" href="./css/styles.css">
+  </head>
+  <body>
+    <header class="hero">
+        <div class="shape-container">
+          <div class="shape"></div>
+        </div>
+      <div class="logo">
+        <img src="https://images.squarespace-cdn.com/content/v1/6005270ac8cd610112a7ad9e/1610987611305-FG1GOG60GO7JOUOSOM97/Frank+Jewelers+logo.png?format=1500w" alt="Frank Jewelers Logo" />
+    </div>
+      <div class="tagline">
+        <h1>We are the original Cuban Link</h1>
+      </div>
+      <img src="https://images.squarespace-cdn.com/content/v1/6005270ac8cd610112a7ad9e/df4ceef1-8969-4449-9dca-859018b56127/BEC_7339.jpg" alt="Signature Jewelry Piece" />
+      <div class="cta">
+        <h2>Discover the Luxury of Frank Jewelers</h2>
+        <button class="cta-button">Experience the Original Cuban Link</button>
+      </div>
+    </header>
+    <main>
+        <section id="services">
+            <h2>Our Services</h2>
+            <div class="service-grid">
+              <!-- Each service is represented with a 'div' -->
+              <!-- Repeat this structure for each service -->
+              <div class="service-card">
+                <h3>Certified Diamonds Sales</h3>
+                <!-- Add service description here -->
+                <p>Description...</p>
+              </div>
+              <!-- Repeat 'div' for other services -->
+            </div>
+          </section>
+          
+      <section class="usp">
+        <h2>
+          We provide the highest value with lowest interest rates. We specialize
+          in high value assets.
+        </h2>
+      </section>
+    </main>
+    <footer>
+        <div class="footer-grid">
+          <div class="location">
+            <!-- Content -->
+          </div>
+          <div class="contact">
+            <!-- Content -->
+          </div>
+          <!-- Add more columns as needed -->
+        </div>
+      </footer>
+      
+  </body>
+</html>
